@@ -1,0 +1,27 @@
+{
+  "name": "slideshows",
+  "version": "0.0.1",
+  "description": "Pascal's Slidehows",
+  "engine": "node >= 0.10.26",
+  "main": "",
+  "scripts": {
+    "start": "grunt serve",
+    "local": "grunt serve --apiServer=localhost:8080 --HOST_NAME=0.0.0.0",
+    "test": "grunt karma:continuous"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/plaenen/slideshows.git"
+  },
+  "bugs": {
+    "url": "https://github.com/plaenen/slideshows.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bower-install": "~0.7.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "load-grunt-tasks": "^1.0.0",
+    "time-grunt": "~0.2.1"
+  }
+}

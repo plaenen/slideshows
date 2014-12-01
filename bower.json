@@ -1,0 +1,10 @@
+{
+    "name": "Slideshows",
+    "version": "0.0.1",
+    "dependencies": {
+        "impress-js" : "https://github.com/bartaz/impress.js.git"
+    },
+    "devDependencies": {
+        "jasmine": "2.1.2"
+    }
+}
